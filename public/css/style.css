@@ -1,0 +1,91 @@
+
+* { background-color: #191919; color: white; margin:0; }
+
+@media screen and (min-width:320px) {
+    /*
+        Head
+    */
+
+    #logo { top:37%; left:0; right:0; margin:0; width:710px; height:260px; position:relative; object-fit:cover; background-size:100%; background-repeat: no-repeat; background: transparent; }
+    #Title { top:30vh; position:relative; text-align:center;}
+    #faq_button { bottom:60px; left:152.4vh; width:100px; height:40px; border-radius:50px; cursor:pointer; flex:content; background-color:orange; position:relative; }
+    #about_button { bottom:60px; left:131vh; width:100px; height:40px; border-radius:50px; cursor:pointer; flex:content; background-color:orange; position:relative; }
+    #menu_button { bottom:60px; left:109.5vh; width:100px; height:40px; border-radius:50px; cursor:pointer; flex:content; background-color:orange; position:relative; }
+
+    h1 { background: transparent; }
+
+    #hdiv1
+    {
+        width:100%; height:100vh;
+        background-image:url(https://images7.alphacoders.com/105/1058528.jpg); 
+        text-align: center;
+        background-repeat:no-repeat;
+        background-position-y: 10%;
+        background-size:100%;
+        object-fit:cover;
+        position:relative;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    /*
+        Center
+    */
+
+    #button_x { margin-top:20%; opacity:50%; width: 150px; height: 50px; }
+    #button_y { margin-top:20%; opacity:50%; width: 150px; height: 50px; }
+    #h1left { top:40%; position:relative; cursor:default; display: inline; }
+    #h1right { top:40%; position:relative; cursor:default; display: inline; }
+    #imgleft:hover { filter: blur(4px); }
+    #imgright:hover { filter: blur(4px); }
+    #imgleft { left:0; right:0; width:99%; height:50vh; object-fit:cover; position:absolute; background-repeat:no-repeat; background-size:100%; border:solid orange 5px; }
+    #imgright { left:0; right:0; width:99%; height:50vh; object-fit: cover; position: absolute; background-repeat:no-repeat; background-size: 100%; border:solid orange 5px; } 
+    
+    #cdiv1
+    { width:50%; height:50vh; text-align:center; position:relative; display:inline-block; object-fit: cover; cursor: pointer; }
+    #cdiv2
+    { text-align:center; width:50%; height:50vh; position:relative; display:inline-block; cursor:pointer; }
+
+    #cdiv3 { width:100%; height:60vh; margin-top:10px; position:relative; display:inline-block; cursor:pointer; text-align:center; }
+    
+    #lasth1 { top:40%; position:relative; cursor:default; display: inline; }
+    #lastimg:hover { filter:blur(4px) }
+
+    #lastimg { left:0; right:0; width:99.6%; height:98.5%; position:absolute; background-size:100%; background-repeat:no-repeat; border:solid orange 4px; }
+
+    /* Slideshow */
+
+    #slideshow_container
+    {
+        height:100vh;
+        width:100%;
+        position:relative;
+    }
+    #prev, #next 
+    {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin-top: 25%;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    #prev
+    {
+        left:0;
+    }
+    #next 
+    {
+        right:0;
+        border-radius: 3px 0 0 3px;
+    }
+    #prev:hover, #next:hover 
+    {
+        background-color: rgba(0,0,0,0.8);
+    }
+}
