@@ -9,25 +9,25 @@ import {
         
         div2.id='logo-container'
             img5.id='logo'
-            img5.src='https://grind-vibe-cafe.herokuapp.com/public/img/logo/logo.png'
+            img5.src='../../public/img/logo/logo.png'
         div2.append(img5)
         
         div3.className='pastry-container'
             h1.innerHTML='PASTRIES:'
             div4.className='pastry'
                 img1.className='pastry'
-                img1.src="https://images5.alphacoders.com/865/thumb-1920-865201.jpg"
+                img1.src='https://images5.alphacoders.com/865/thumb-1920-865201.jpg'
                 h1_2.innerHTML='food'
             div4.append(img1, h1_2)
 
             div5.className='pastry'
                 img2.className='pastry'
-                img2.src="https://images5.alphacoders.com/865/thumb-1920-865201.jpg"
+                img2.src='https://images5.alphacoders.com/865/thumb-1920-865201.jpg'
                 h1_3.innerHTML='food'
             div5.append(img2, h1_3)
         div3.append(h1, div4, div5)
 
-        div6.className="drink-container"
+        div6.className='drink-container'
             h1_1.innerHTML='DRINKS:'
             div7.className='drinks'
                 img3.className='drinks'

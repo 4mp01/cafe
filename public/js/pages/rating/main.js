@@ -10,7 +10,7 @@ const socket = io()
 
     div1.className='content-container'
         div2.className='logo'
-            img1.src='https://grind-vibe-cafe.herokuapp.com/public/img/logo/logo.png'
+            img1.src='../../public/img/logo/logo.png'
         div2.append(img1)
 
         div3.className='message-container'
