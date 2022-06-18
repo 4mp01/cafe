@@ -9,6 +9,19 @@ export const h1_5=document.createElement('h1');
 export const h1_6=document.createElement('h1');
 export const h1_7=document.createElement('h1');
 export const h1_8=document.createElement('h1');
+export const h1_9=document.createElement('h1');
+export const h1_10=document.createElement('h1');
+export const h1_11=document.createElement('h1');
+export const h1_12=document.createElement('h1');
+export const h1_13=document.createElement('h1');
+export const h1_14=document.createElement('h1');
+export const h1_15=document.createElement('h1');
+export const h1_16=document.createElement('h1');
+export const h1_17=document.createElement('h1');
+export const h1_18=document.createElement('h1');
+export const h1_19=document.createElement('h1');
+export const h1_20=document.createElement('h1');
+
 export const h2=document.createElement('h2');
 export const h3=document.createElement('h3');
 
@@ -34,7 +47,18 @@ export const div6=document.createElement('div');
 export const div7=document.createElement('div');
 export const div8=document.createElement('div');
 export const div9=document.createElement('div');
-
+export const div10=document.createElement('div');
+export const div11=document.createElement('div');
+export const div12=document.createElement('div');
+export const div13=document.createElement('div');
+export const div14=document.createElement('div');
+export const div15=document.createElement('div');
+export const div16=document.createElement('div');
+export const div17=document.createElement('div');
+export const div18=document.createElement('div');
+export const div19=document.createElement('div');
+export const div20=document.createElement('div');
+export const div21=document.createElement('div');
 //logo
 export const logo=document.createElement('img');
 
@@ -45,6 +69,21 @@ export const img3=document.createElement('img')
 export const img4=document.createElement('img')
 export const img5=document.createElement('img')
 export const img6=document.createElement('img')
+export const img7=document.createElement('img')
+export const img8=document.createElement('img')
+export const img9=document.createElement('img')
+export const img10=document.createElement('img')
+export const img11=document.createElement('img')
+export const img12=document.createElement('img')
+export const img13=document.createElement('img')
+export const img14=document.createElement('img')
+export const img15=document.createElement('img')
+export const img16=document.createElement('img')
+export const img17=document.createElement('img')
+export const img18=document.createElement('img')
+export const img19=document.createElement('img')
+export const img20=document.createElement('img')
+export const img21=document.createElement('img')
 
 //form
 export const form1=document.createElement('form')

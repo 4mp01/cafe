@@ -34,15 +34,29 @@
         display: contents;
         text-align: center;
         position: absolute;
+
     }
 
     .pastry, .drinks
     {
+        left: 5vh;
         margin: 5px;
         display: inline-block;
         position: relative;
         width: 210px;
         height: 190px;
         border-radius: 5px;
+    }
+
+    h1, p
+    {
+
+        left: 5vh;
+        position: relative;
+    }
+
+    img
+    {
+        border: solid orange 3px;
     }
 }

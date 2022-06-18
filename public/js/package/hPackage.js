@@ -45,6 +45,10 @@ export const img3=document.createElement('img')
 export const img4=document.createElement('img')
 export const img5=document.createElement('img')
 export const img6=document.createElement('img')
+export const img7=document.createElement('img')
+export const img8=document.createElement('img')
+export const img9=document.createElement('img')
+export const img10=document.createElement('img')
 
 //form
 export const form1=document.createElement('form')
