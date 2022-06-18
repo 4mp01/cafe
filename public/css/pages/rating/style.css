@@ -1,6 +1,68 @@
 
-* { background-color: #191919; color: white; margin:0; }
+* { background-color: #191919; color: white; margin:0; background: transparent; }
 
 @media screen and (min-width:320px) {
+   
+    body 
+    { 
+        overflow:hidden; 
+        background-image: url(https://images7.alphacoders.com/105/1058528.jpg); 
+        background-repeat: no-repeat; 
+        background-size: 100%, 100%; 
+    }
 
+    .content-container
+    {
+        left: 50vh;
+        width: 90vh;
+        height: 99vh;
+        overflow: auto;
+        overflow-x: hidden;
+        border: solid orange 5px;
+        background-color: #191919;
+        position: relative;
+    }
+    
+    .message
+    {
+        margin: 5px;
+        display: block;
+        position: relative;
+    }
+
+    .message-container
+    {
+        margin: 3px;
+        left: 4%;
+        position: relative;
+        width: 90%;
+        height: 65vh;
+        border: solid orange 3px;
+        overflow: auto;
+    }
+
+    #input
+    {
+        display: inline-block;
+        position:relative;
+        width: 84%;
+    }
+
+    .input-container
+    {
+        top: 1%;
+        left: 4%;
+        position: relative;
+        display: inline;
+    }
+
+    img
+    {
+        top: 10px;
+        left: 8.9vh;
+        width: 690px;
+        height: 270px;
+        position: relative;
+        cursor: pointer;
+    }
 }
