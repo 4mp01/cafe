@@ -21,6 +21,7 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
         div2.append(img5)
         
         div3.className='pastry-container'
+            h1.className='txt'
             h1.innerHTML='PASTRIES:'
             
             div4.className='pastry'
@@ -80,6 +81,7 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
         div3.append(h1, div4, div5, div9, div10, div11, div12, div13, div14, div15)
 
         div6.className='drink-container'
+            h1_1.className='txt'
             h1_1.innerHTML='DRINKS:'
             
             div7.className='drinks'
