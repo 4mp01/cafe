@@ -26,14 +26,14 @@
         border: solid orange 5px;
         position: relative;
     }
-   
+
     img
     {
         margin: 5px;
         left: 33vh;
         width: 210px;
         height: 190px;
-        display: block;
+        display: inline-block;
         border: solid orange 5px;
         border-radius: 5px;
         position: relative;
@@ -44,5 +44,10 @@
         margin: 5px;
         position: relative;
         text-align: center;
+    }
+
+    hr
+    {
+        margin: 5vh;
     }
 }

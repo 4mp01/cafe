@@ -34,7 +34,6 @@
         display: contents;
         text-align: center;
         position: absolute;
-
     }
 
     .pastry, .drinks
@@ -48,10 +47,15 @@
         border-radius: 5px;
     }
 
+    hr
+    {
+        margin: 5vh;
+    }
+
     h1, p
     {
-
-        left: 5vh;
+        left: 5vh;  
+        text-align: center;
         position: relative;
     }
 

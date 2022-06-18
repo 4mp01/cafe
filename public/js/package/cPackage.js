@@ -112,6 +112,9 @@ export const li5=document.createElement('li');
 
 export const vid1=document.createElement('video');
 
+export const hr1=document.createElement('hr');
+export const hr2=document.createElement('hr');
+
 export const br1=document.createElement('br');
 export const br2=document.createElement('br');
 export const br3=document.createElement('br');
