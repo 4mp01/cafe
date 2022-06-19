@@ -32,7 +32,7 @@
     {
         margin: 5px;
         display: contents;
-        position: absolute;
+        position: relative;
     }
 
     .pastry, .drinks
@@ -50,19 +50,22 @@
     {
         margin: 5vh;
     }
+
     .txt
     {
         left: 0;
+        font: bold;
         display: block;
         text-align: center;
         position: relative;
     }
+
     h1, p
     {
         left: 6vh;
         position: relative;
         text-align: center;
-        display: flex;
+        display: block;
     }
 
     img

@@ -31,54 +31,63 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
                 img1.className='pastry'
                 img1.src=imgP.shift().img1
                 h1_2.innerHTML=pastry.shift().pastry1
+                h1_2.style.fontSize='95%'
             div4.append(img1, h1_2)
 
             div5.className='pastry'
                 img2.className='pastry'
                 img2.src=imgP.shift().img2
                 h1_3.innerHTML=pastry.shift().pastry2
+                h1_3.style.fontSize='95%'
             div5.append(img2, h1_3)
 
             div9.className='pastry'
                 img6.className='pastry'
                 img6.src=imgP.shift().img3
                 h1_6.innerHTML=pastry.shift().pastry3
+                h1_6.style.fontSize='95%'
             div9.append(img6, h1_6)
 
             div10.className='pastry'
                 img7.className='pastry'
                 img7.src=imgP.shift().img4
                 h1_7.innerHTML=pastry.shift().pastry4
+                h1_7.style.fontSize='95%'
             div10.append(img7, h1_7)
 
             div11.className='pastry'
                 img8.className='pastry'
                 img8.src=imgP.shift().img5
                 h1_8.innerHTML=pastry.shift().pastry5
+                h1_8.style.fontSize='95%'
             div11.append(img8, h1_8)
 
             div12.className='pastry'
                 img9.className='pastry'
                 img9.src=imgP.shift().img6
                 h1_9.innerHTML=pastry.shift().pastry6
+                h1_9.style.fontSize='95%'
             div12.append(img9, h1_9)
         
             div13.className='pastry'
                 img10.className='pastry'
                 img10.src=imgP.shift().img7
                 h1_10.innerHTML=pastry.shift().pastry7
+                h1_10.style.fontSize='95%'
             div13.append(img10, h1_10)
         
             div14.className='pastry'
                 img12.className='pastry'
                 img12.src=imgP.shift().img8
                 h1_12.innerHTML=pastry.shift().pastry8
+                h1_12.style.fontSize='95%'
             div14.append(img12, h1_12)
             
             div15.className='pastry'
                 img13.className='pastry'
                 img13.src=imgP.shift().img9
                 h1_13.innerHTML=pastry.shift().pastry9
+                h1_13.style.fontSize='95%'
             div15.append(img13, h1_13)
         
         div3.append(h1, div4, div5, div9, div10, div11, div12, div13, div14, div15)
@@ -91,48 +100,56 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
                 img3.className='drinks'
                 img3.src=imgD.shift().img1
                 h1_4.innerHTML=drink.shift().drink1
+                h1_4.style.fontSize='95%'
             div7.append(img3, h1_4)
 
             div8.className='drinks'
                 img4.className='drinks'
                 img4.src=imgD.shift().img2
                 h1_5.innerHTML=drink.shift().drink2
+                h1_5.style.fontSize='95%'
             div8.append(img4, h1_5)
 
             div16.className='drinks'
                 img14.className='drinks'
                 img14.src=imgD.shift().img3
                 h1_14.innerHTML=drink.shift().drink3
+                h1_14.style.fontSize='95%'
             div16.append(img14, h1_14)
 
             div17.className='drinks'
                 img16.className='drinks'
                 img16.src=imgD.shift().img4
                 h1_16.innerHTML=drink.shift().drink4
+                h1_16.style.fontSize='95%'
             div17.append(img16, h1_16)
 
             div18.className='drinks'
                 img17.className='drinks'
                 img17.src=imgD.shift().img5
                 h1_17.innerHTML=drink.shift().drink5
+                h1_17.style.fontSize='95%'
             div18.append(img17, h1_17)
 
             div19.className='drinks'
                 img18.className='drinks'
                 img18.src=imgD.shift().img6
                 h1_18.innerHTML=drink.shift().drink6
+                h1_18.style.fontSize='95%'
             div19.append(img18, h1_18)
 
             div20.className='drinks'
                 img19.className='drinks'
                 img19.src=imgD.shift().img7
                 h1_19.innerHTML=drink.shift().drink7
+                h1_19.style.fontSize='95%'
             div20.append(img19, h1_19)
 
             div21.className='drinks'
                 img20.className='drinks'
                 img20.src=imgD.shift().img8
                 h1_20.innerHTML=drink.shift().drink8
+                h1_20.style.fontSize='95%'
             div21.append(img20, h1_20)
 
             
@@ -140,36 +157,42 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
                 img21.className='drinks'
                 img21.src=imgD.shift().img9
                 h1_21.innerHTML=drink.shift().drink9
+                h1_21.style.fontSize='95%'
             div22.append(img21, h1_21)
 
             div23.className='drinks'
                 img22.className='drinks'
                 img22.src=imgD.shift().img10
                 h1_22.innerHTML=drink.shift().drink10
+                h1_22.style.fontSize='95%'
             div23.append(img22, h1_22)
 
             div24.className='drinks'
                 img24.className='drinks'
                 img24.src=imgD.shift().img11
                 h1_24.innerHTML=drink.shift().drink11
+                h1_24.style.fontSize='95%'
             div24.append(img24, h1_24)
 
             div25.className='drinks'
                 img25.className='drinks'
                 img25.src=imgD.shift().img12
                 h1_25.innerHTML=drink.shift().drink12
+                h1_25.style.fontSize='95%'
             div25.append(img25, h1_25)
 
             div26.className='drinks'
                 img26.className='drinks'
                 img26.src=imgD.shift().img13
                 h1_26.innerHTML=drink.shift().drink13
+                h1_26.style.fontSize='95%'
             div26.append(img26, h1_26)
 
             div27.className='drinks'
                 img27.className='drinks'
                 img27.src=imgD.shift().img14
                 h1_27.innerHTML=drink.shift().drink14
+                h1_27.style.fontSize='95%'
             div27.append(img27, h1_27)
         
         div6.append(h1_1, div7, div8, div16, div17, div18, div19, div20, div21, div22, div23, div24, div25, div26)
