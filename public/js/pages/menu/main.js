@@ -2,11 +2,14 @@
 import { 
     div1, div2, div3, div4, div5, div6, div7, div8, div9, div10,
     div11, div12, div13, div14, div15, div16, div17, div18, div19, div20, div21,
+    div22, div23, div24, div25, div26, div27,
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
     hr1, hr2,
     img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
+    img21, img22, img23, img24, img25, img26, img27,
     h1, h1_1, h1_2, h1_3, h1_4, h1_5, h1_6, h1_7, h1_8, h1_9, h1_10,
-    h1_11, h1_12, h1_13, h1_14, h1_15, h1_16, h1_17, h1_18, h1_19, h1_20
+    h1_11, h1_12, h1_13, h1_14, h1_15, h1_16, h1_17, h1_18, h1_19, h1_20,
+    h1_21, h1_22, h1_23, h1_24, h1_25, h1_26, h1_27
 } from '../../package/cPackage.js'
 import pastry from '../../../data/pastries/pastry.json' assert { type:'json' }
 import drink from '../../../data/drinks/drinks.json' assert { type:'json' }
@@ -132,7 +135,44 @@ import imgD from '../../../data/drinks/img.json' assert { type:'json' }
                 h1_20.innerHTML=drink.shift().drink8
             div21.append(img20, h1_20)
 
-        div6.append(h1_1, div7, div8, div16, div17, div18, div19, div20, div21)
+            
+            div22.className='drinks'
+                img21.className='drinks'
+                img21.src=imgD.shift().img9
+                h1_21.innerHTML=drink.shift().drink9
+            div22.append(img21, h1_21)
+
+            div23.className='drinks'
+                img22.className='drinks'
+                img22.src=imgD.shift().img10
+                h1_22.innerHTML=drink.shift().drink10
+            div23.append(img22, h1_22)
+
+            div24.className='drinks'
+                img24.className='drinks'
+                img24.src=imgD.shift().img11
+                h1_24.innerHTML=drink.shift().drink11
+            div24.append(img24, h1_24)
+
+            div25.className='drinks'
+                img25.className='drinks'
+                img25.src=imgD.shift().img12
+                h1_25.innerHTML=drink.shift().drink12
+            div25.append(img25, h1_25)
+
+            div26.className='drinks'
+                img26.className='drinks'
+                img26.src=imgD.shift().img13
+                h1_26.innerHTML=drink.shift().drink13
+            div26.append(img26, h1_26)
+
+            div27.className='drinks'
+                img27.className='drinks'
+                img27.src=imgD.shift().img14
+                h1_27.innerHTML=drink.shift().drink14
+            div27.append(img27, h1_27)
+        
+        div6.append(h1_1, div7, div8, div16, div17, div18, div19, div20, div21, div22, div23, div24, div25, div26)
     div1.append(div2, hr1, div3, hr2, div6)
 
 document.body.append(div1)

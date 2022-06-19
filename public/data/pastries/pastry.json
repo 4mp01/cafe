@@ -1,12 +1,11 @@
 [
-    { "pastry1" : "Croissants" },
-    { "pastry2" : "Pies" },
-    { "pastry3" : "Danishes" },
-    { "pastry4" : "Macarons" },
-    { "pastry5" : "Éclairs" },
-    { "pastry6" : "Strudels" },
-    { "pastry7" : "Cannoli" },
-    { "pastry8" : "Pretzels" },
-    { "pastry9" : "Tarts" },
-    { "pastry10" : "Profiteroles" }
+    { "pastry1" : "Blueberry Cheesecake" },
+    { "pastry2" : "Strawberry Cheesecake" },
+    { "pastry3" : "Chocolate Dream Cake" },
+    { "pastry4" : "Banana Cake" },
+    { "pastry5" : "Mango Cake" },
+    { "pastry6" : "Butterscotch" },
+    { "pastry7" : "Chocolate Crinkles" },
+    { "pastry8" : "Chocolate Chip Cookies" },
+    { "pastry9" : "Chocolate Muffins" }
 ]

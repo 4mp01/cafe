@@ -1,10 +1,16 @@
 [
-    { "drink1" : "Arabica" },
-    { "drink2" : "Robusta" },
-    { "drink3" : "Black Coffee" },
-    { "drink4" : "Decaf" },
-    { "drink5" : "Espresso" },
-    { "drink6" : "Latte" },
-    { "drink7" : "Cappuccino" },
-    { "drink8" : "Americano" }
+    { "drink1" : "Iced white Chocolate Vibe" },
+    { "drink2" : "White Mocha Vibes" },
+    { "drink3" : "Triple Mocha Vibes" },
+    { "drink4" : "Dark Mocha Vibes" },
+    { "drink5" : "Coffee Jelly Vibes" },
+    { "drink6" : "Java Chip Vibes" },
+    { "drink7" : "Caramel Vibes" },
+    { "drink8" : "Iced Caramel Macchiato Vibes" },
+    { "drink9" : "Iced Cappuccino Vibes" },
+    { "drink10" : "Iced Mocha Vibes" },
+    { "drink11" : "Iced Americano Vibes" },
+    { "drink12" : "Espresso Vibes" },
+    { "drink13" : "Espresso Macchiato Vibes" },
+    { "drink14" : "Espresso Vibes" }
 ]

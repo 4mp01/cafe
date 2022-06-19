@@ -21,6 +21,13 @@ export const h1_17=document.createElement('h1');
 export const h1_18=document.createElement('h1');
 export const h1_19=document.createElement('h1');
 export const h1_20=document.createElement('h1');
+export const h1_21=document.createElement('h1');
+export const h1_22=document.createElement('h1');
+export const h1_23=document.createElement('h1');
+export const h1_24=document.createElement('h1');
+export const h1_25=document.createElement('h1');
+export const h1_26=document.createElement('h1');
+export const h1_27=document.createElement('h1');
 
 export const h2=document.createElement('h2');
 export const h3=document.createElement('h3');
@@ -59,6 +66,12 @@ export const div18=document.createElement('div');
 export const div19=document.createElement('div');
 export const div20=document.createElement('div');
 export const div21=document.createElement('div');
+export const div22=document.createElement('div');
+export const div23=document.createElement('div');
+export const div24=document.createElement('div');
+export const div25=document.createElement('div');
+export const div26=document.createElement('div');
+export const div27=document.createElement('div');
 //logo
 export const logo=document.createElement('img');
 
@@ -84,6 +97,12 @@ export const img18=document.createElement('img')
 export const img19=document.createElement('img')
 export const img20=document.createElement('img')
 export const img21=document.createElement('img')
+export const img22=document.createElement('img')
+export const img23=document.createElement('img')
+export const img24=document.createElement('img')
+export const img25=document.createElement('img')
+export const img26=document.createElement('img')
+export const img27=document.createElement('img')
 
 //form
 export const form1=document.createElement('form')

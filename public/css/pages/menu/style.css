@@ -53,14 +53,16 @@
     .txt
     {
         left: 0;
+        display: block;
         text-align: center;
         position: relative;
     }
     h1, p
     {
-        left: 5vh;
+        left: 6vh;
         position: relative;
         text-align: center;
+        display: flex;
     }
 
     img
